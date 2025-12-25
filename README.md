@@ -1,3 +1,10 @@
+# Terraform + Ansible Project Template
+
+This repository is a personal infrastructure template for Terraform and Ansible projects.
+
+It follows a layered Terraform state approach (network, compute, logging, etc.)
+with explicit execution order and dynamic Ansible inventory.
+
 # 🚀 Project Name
 
 > **Brief Description:**  

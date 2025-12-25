@@ -2,59 +2,59 @@
 # === Terraform ===
 ########################################
 # Local directories and caches
-terraform/.terraform/
+.terraform/
 
 # State files (contain sensitive data)
-terraform/terraform.tfstate
-terraform/terraform.tfstate.*
+terraform.tfstate
+terraform.tfstate.*
 
 # Crash logs and overrides
-terraform/crash.log
-terraform/override.tf
-terraform/override.tf.json
-terraform/*_override.tf
-terraform/*_override.tf.json
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
 
 # Plan files
-terraform/terraform.tfplan
-terraform/*.tfplan
+terraform.tfplan
+*.tfplan
 
 # Sensitive variable files
-terraform/*.tfvars
-terraform/*.tfvars.json
+*.tfvars
+*.tfvars.json
 
 # Logs and debug output
-terraform/*.log
+*.log
 
 
 ########################################
 # === Ansible ===
 ########################################
 # Auto-generated inventories
-ansible/inventory/hosts.ini
-ansible/.ansible/
-ansible/.ssh/known_hosts
+inventory/hosts.ini
+.ansible/
+.ssh/known_hosts
 
 # Secrets, vaults, keys, certs
-ansible/*.vault
-ansible/*.secret
-ansible/*.key
-ansible/*.pem
-ansible/*.crt
-ansible/*.cer
-ansible/*.p12
+*.vault
+*.secret
+*.key
+*.pem
+*.crt
+*.cer
+*.p12
 
 # Temporary and retry files
-ansible/*.retry
-ansible/*.tmp
-ansible/*.bak
-ansible/*.swp
-ansible/*.orig
+*.retry
+*.tmp
+*.bak
+*.swp
+*.orig
 
 # Python cache (for Ansible plugins)
-ansible/__pycache__/
-ansible/*.pyc
-ansible/*.pyo
+__pycache__/
+*.pyc
+*.pyo
 
 
 ########################################
